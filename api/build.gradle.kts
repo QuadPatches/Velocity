@@ -44,6 +44,8 @@ dependencies {
     api(libs.bundles.configurate4)
     api(libs.caffeine)
 
+    implementation(libs.netty.codec)
+
     compileOnly(libs.auto.service.annotations)
     annotationProcessor(libs.auto.service)
 }
